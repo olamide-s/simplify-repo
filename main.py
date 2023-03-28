@@ -1,5 +1,4 @@
 import openai
-from dotenv import load_dotenv
 import pytesseract 
 from PIL import Image, ImageEnhance
 import hide
@@ -8,7 +7,7 @@ import hide
 
 
 
-# put your openai api key on a config.ini file or remove the config["api"]["key"] and past "API KEY" directly
+# put your openai api key on a .py file 
 # set the API key
 openai.api_key = hide.api
 
